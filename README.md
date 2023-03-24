@@ -1,1 +1,2 @@
 # NECSTCAMP_NL1_BioImage
+This project was assigned to me at the end of the biomedical computer vision course taught at the NECST lab of the Politecnico di Milano. The code reported on a colab file is written in python, and the goal of the project is to train a neural network (in this case, U-NET), through the use of several libraries, to distinguish from an abdominal MRI dataset the kidneys and, if present, any tumors.
