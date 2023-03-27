@@ -5,7 +5,7 @@ This project was assigned to me at the end of the biomedical computer vision cou
 The dataset is the following: https://github.com/neheller/kits19
 
 I only work on the 100 first patients due to memory problems related to colab and drive in their free versions.
-Most of the images in the dataset are 512x512 in size, in any case, since colab in its free version is not very performing, I preferred to rescale the images to 256x256, the minimum present among the top 100 patients.
+Most of the images in the dataset are 512x512 in size, in any case, since colab in its free version is not very performing, I preferred to resample the images to 256x256, the minimum present among the top 100 patients.
 
 ## Binary Segmentation
 The colab file is the one that contains the actual code, where I perform a type of binary segmentation, eliminating in the masks the distinction between kidneys and tumors, setting everything that is background to 0 and setting everything that is other than background to 1. Binary segmentation was not sufficient for the identification of tumors alone, but sufficient for the identification of kidneys within MRI images. 
